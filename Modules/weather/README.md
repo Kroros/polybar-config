@@ -19,8 +19,7 @@ This widget was made with only my personal needs in mind; I can't promise compat
 In `weather.py`, change the variables `key, lat, lng` to your OWM API Key, city latitude, and city longitude, respectively. Then add the following to `~/.config/polybar/config.ini`:
 
 
-`
-    [module/weather]
+    `[module/weather]
     
     type = custom/script
     
