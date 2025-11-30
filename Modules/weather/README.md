@@ -21,6 +21,10 @@ In `weather.py`, change the variables `key, lat, lng` to your OWM API Key, city 
 
 `
     [module/weather]
+    
     type = custom/script
+    
     exec = ~/.config/polybar/modules/weather/weather.py
+    
     interval = 600`
+    
